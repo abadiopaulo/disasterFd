@@ -1,0 +1,58 @@
+[ 
+  { 
+    "deviceID": 0,
+    "protocol": "coap",
+    "address": "coap://172.22.1.3:5683/helloworld",
+    "factorImpact" : 6
+  }, 
+  
+  { 
+    "deviceID": 1,
+    "protocol": "coap", 
+    "address": "coap://172.22.1.3:5683/timezone",
+    "factorImpact" : 20
+  }, 
+  
+  { 
+    "deviceID": 2, 
+    "protocol": "coap",
+    "address": "coap://172.22.1.3:5683/hostname",
+    "factorImpact" : 20
+  }, 
+  
+  { 
+    "deviceID": 3, 
+    "protocol": "coap",
+    "address": "coap://172.22.1.3:5683/ipserver",
+    "factorImpact" : 20
+  },   
+  
+  
+  { 
+    "deviceID": 4, 
+    "protocol": "icmp",
+    "address": "192.167.80.128",
+    "factorImpact" : 1
+  }, 
+  
+  { 
+    "deviceID": 5, 
+    "protocol": "coap",
+    "address": "coap://192.167.80.128:5683/ativo",
+    "factorImpact" : 1
+  },
+  
+  { 
+    "deviceID": 6,
+    "protocol": "icmp", 
+    "address": "192.167.80.129",
+    "factorImpact" : 1
+  },
+     
+  { 
+    "deviceID": 7, 
+    "protocol": "coap",
+    "address": "coap://192.167.80.129:5683/ativo",
+    "factorImpact" : 1
+  }  
+]

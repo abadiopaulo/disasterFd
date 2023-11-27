@@ -1,0 +1,25 @@
+[ 
+    
+   { 
+    "deviceID": 0,
+    "protocol": "coap", 
+    "address": "coap://172.22.1.3:5683/country",
+    "factorImpact" : 20
+  },
+  
+  { 
+    "deviceID": 1, 
+    "protocol": "icmp",
+    "address": "192.167.80.128",
+    "factorImpact" : 20
+  },
+  
+  { 
+    "deviceID": 2, 
+    "protocol": "coap",
+    "address": "coap://192.167.80.128:5683/dia",
+    "factorImpact" : 20
+  }
+
+ 
+]
