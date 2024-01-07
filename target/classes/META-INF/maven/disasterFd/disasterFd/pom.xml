@@ -12,11 +12,12 @@
     
     <dependencies>
         
-        <dependency>
+         <dependency>
             <groupId>org.eclipse.californium</groupId>
             <artifactId>californium-core</artifactId>
             <version>3.8.0</version>
         </dependency>        
+        
         
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>

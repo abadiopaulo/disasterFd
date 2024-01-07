@@ -19,16 +19,16 @@ public class Url implements Serializable, Comparable<Url> {
 	public boolean trusted;
 	public long timeout_dispositivo;
 	public boolean funcionouPeloMenosUmaVez ;
-
-	
+		
 	public Url() {
 	 super();	
 
 	 this.timeout_dispositivo = ( System.nanoTime() + CoAPController.conf.getTimeout_dispositivo() );
+	
 	}
 
 	public Url(int deviceID, String protocol, int idMensagem, long data_envio, long data_recebimento, String address,
-			int factorImpact, boolean funcionouPeloMenosUmaVez , boolean trusted ) {
+			int factorImpact, boolean funcionouPeloMenosUmaVez , boolean trusted) {
 		
 		super();
 		this.deviceID = deviceID;
@@ -40,7 +40,7 @@ public class Url implements Serializable, Comparable<Url> {
 		this.factorImpact = factorImpact;
 		this.trusted = trusted;
 		this.funcionouPeloMenosUmaVez  = funcionouPeloMenosUmaVez ;
-		
+				
 	}
 
 	public Url(int deviceID, String protocol, String address, int factorImpact) {
@@ -54,7 +54,7 @@ public class Url implements Serializable, Comparable<Url> {
 		this.factorImpact = factorImpact;		
 		this.timeout_dispositivo = CoAPController.conf.getTimeout_dispositivo();
 		this.trusted = true;
-		this.funcionouPeloMenosUmaVez = false;
+		this.funcionouPeloMenosUmaVez = false;		
 	}
 
 	public int getDeviceID() {
@@ -99,8 +99,8 @@ public class Url implements Serializable, Comparable<Url> {
 
 	public String getAddress() {
 		return address;
-	}
-
+	}		
+	
 	public void setAddress(String address) {
 		this.address = address;
 	}

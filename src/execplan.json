@@ -3,12 +3,12 @@
   "windows_size":"100",
   "margin":"150000000", 
   "threshold":"40",
-  "alfa":"",
+  "alfa":"1",
   "trace": "",
-  "timeout_dispositivo":"1200000000", 
+  "timeout_dispositivo":"500000000", 
   "time_analiseRede":"1",
   "time_consumo_energia":"2",
-  "time_envio_mensagem": "1000000000",
+  "time_envio_mensagem": "5000000000",
   "outros_monitores": [    
    {
       "ip": "192.167.80.129",

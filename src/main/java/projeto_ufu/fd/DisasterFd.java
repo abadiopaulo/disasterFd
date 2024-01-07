@@ -135,7 +135,7 @@ public class DisasterFd {
 			to[j] = 0;
 			tPrevious[j] = 0;
 			tFalha[j] = 0;
-			tUltimoHeartbeat_Trusted[j] = 0;
+			tUltimoHeartbeat_Trusted[j] = System.currentTimeMillis();
 		}
 
 	}
@@ -222,11 +222,11 @@ public class DisasterFd {
 			 * e agora voltou a funcionar; se for esse o caso, ele calcula o Tempo de
 			 * Manutenção (TM)
 			 */
-			if (!trusted[id] && timeout
-					/*&& tUltimoHeartbeat_Trusted[id] != 0
-					&& lista_topicos.get(id).isFuncionouPeloMenosUmaVez()*/) {
+			if (timeout	|| !trusted[id] /*&& tUltimoHeartbeat_Trusted[id] != 0
+				&& lista_topicos.get(id).isFuncionouPeloMenosUmaVez()*/) {
 
-				metricas.calcularTD(id, tFalha[id], tUltimoHeartbeat_Trusted[id]);
+				// Calcula o Tempo de Detecção (TD)
+			    metricas.calcularTD(id, tFalha[id], tUltimoHeartbeat_Trusted[id]);
 			} 
 			else {
 				    tUltimoHeartbeat_Trusted[id] = System.currentTimeMillis();
@@ -463,11 +463,11 @@ public class DisasterFd {
 			relatorio(CoAPController.millissegundosData(CoAPController.tempoAtualMilissegundos()));
 
 			// Reinicializar Lista de Nós
-			reinicializarLista(CoAPController.path);
+			//reinicializarLista(CoAPController.path);
 
-			for (Url topico : lista_topicos) {
+			/*for (Url topico : lista_topicos) {
 				System.out.println(topico.toString());
-			}
+			}*/
 
 		} catch (IOException e) {
 			e.printStackTrace();

@@ -2,9 +2,9 @@ package projeto_ufu.protocol.ping;
 
 public class PingResult {
 	
-	private final boolean successful;
-    private final long timestamp;
-    private final int MID; 
+	public final boolean successful;
+    public final long timestamp;
+    public final int MID; 
 
     public PingResult(boolean successful, long timestamp, int MID) {
       
@@ -24,4 +24,8 @@ public class PingResult {
     public int getMID() {
         return MID;
     }
+    
+    
+    
+    
 }

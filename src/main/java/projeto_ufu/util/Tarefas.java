@@ -23,7 +23,7 @@ public class Tarefas {
        
     	agendarLeituraDiretorio();
         agendarEstatisticas();
-        registrarMetricas();
+        //registrarMetricas();
     }
 
     private void agendarLeituraDiretorio() {
@@ -46,10 +46,10 @@ public class Tarefas {
             catch (IOException e) {
                 e.printStackTrace();
             }
-        }, 1, CoAPController.conf.getTime_analiseRede(), TimeUnit.MINUTES);
+        }, 0, CoAPController.conf.getTime_analiseRede(), TimeUnit.MINUTES);
     }
     
-    private void registrarMetricas() {
+   /* private void registrarMetricas() {
         scheduler.scheduleAtFixedRate(() -> {
             try {
                 Metricas.contadorErrosTemporal();
@@ -57,8 +57,8 @@ public class Tarefas {
             catch (IOException e) {
                 e.printStackTrace();
             }
-        }, 0, CoAPController.conf.getTime_analiseRede(), TimeUnit.MINUTES);
+        }, 1, CoAPController.conf.getAlfa(), TimeUnit.MINUTES);
     }   
-
+*/
 
 }

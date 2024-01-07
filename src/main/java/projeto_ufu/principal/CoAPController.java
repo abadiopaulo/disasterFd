@@ -4,6 +4,7 @@ import org.eclipse.californium.core.CoapClient;
 import org.eclipse.californium.core.CoapHandler;
 import org.eclipse.californium.core.CoapResponse;
 import org.eclipse.californium.core.coap.*;
+import org.eclipse.californium.core.coap.CoAP.Type;
 
 import projeto_ufu.fd.DisasterFd;
 import projeto_ufu.json.converter.Conf_Converter;
@@ -31,14 +32,15 @@ import java.util.*;
 
 public class CoAPController {
 
-    public  static List<Url> lista_topicos;
+	private MonitorDeThreads monitorDeThreads;
+	public  static List<Url> lista_topicos;
     public  static Conf conf;
     private final Map<String, AtomicInteger> deviceMID = new HashMap<>();
     private final Map<String, AtomicInteger> deviceTokenIds = new HashMap<>();
     
     private final ConcurrentHashMap<String, Long> timestampEnvio = new ConcurrentHashMap<>();
 
-    private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(lista_topicos.size());
+    //private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(lista_topicos.size());
     
     private DisasterFd disasterFd;
         
@@ -56,35 +58,61 @@ public class CoAPController {
         this.tarefas = new Tarefas(this.disasterFd);
     }
     
-    public void start() {
+  /*  public void start() {
        
     	for (Url topico : lista_topicos) {
     		
             scheduler.scheduleAtFixedRate(() -> sendCoapRequest(topico), 0, conf.getTime_envio_mensagem(), TimeUnit.NANOSECONDS);
 
         }
-        /** Inicie todas as tarefas adicionais */
+         Inicie todas as tarefas adicionais 
         tarefas.iniciarTarefas();   
+    }*/
+    
+    public void start() {
+    	
+     //Inicialização da variável monitorDeThreads       
+
+     this.monitorDeThreads = new MonitorDeThreads(this, lista_topicos.size());
+
+
+     for (Url topico : lista_topicos) {
+         monitorDeThreads.agendarTarefa(topico);
+     }
+
+     //Inicie todas as tarefas adicionais
+     monitorDeThreads.monitorarThreads();         
+     tarefas.iniciarTarefas();   
+
     }
+
+    public Url getTopicoById(String topicoId) {
+        return lista_topicos.stream()
+                            .filter(t -> t.getAddress().equals(topicoId))
+                            .findFirst()
+                            .orElse(null);
+    }
+
         
-    private void sendCoapRequest(Url topico) {
+    public void sendCoapRequest(Url topico) {
+    	
         if ("coap".equals(topico.getProtocol())) {
         
             try {
             
                     URI uri = new URI(topico.getAddress());
-                    CoapClient client = new CoapClient(uri).useNONs();
-
-                     /** Use URI.toString() em vez de apenas getAddress(), para obter a combinação única de endereço + caminho */
+                    CoapClient client = new CoapClient(uri);
+                                  
+                    /** Use URI.toString() em vez de apenas getAddress(), para obter a combinação única de endereço + caminho */
                      String uniqueDeviceIdentifier = uri.toString();
 
                     /** Agora, use esse identificador único para gerar o MID */
                     int currentMID = deviceMID.computeIfAbsent(uniqueDeviceIdentifier, k -> new AtomicInteger(0)).incrementAndGet();
-                    String tokenString = String.valueOf(deviceTokenIds.computeIfAbsent(uniqueDeviceIdentifier, k -> new AtomicInteger(0)).incrementAndGet());
+                 //   String tokenString = String.valueOf(deviceTokenIds.computeIfAbsent(uniqueDeviceIdentifier, k -> new AtomicInteger(0)).incrementAndGet());
 
-                    Request coapRequest = new Request(CoAP.Code.GET);
+                    Request coapRequest = new Request(CoAP.Code.GET, Type.CON);
                     coapRequest.setMID(currentMID);
-                    coapRequest.setToken(tokenString.getBytes());
+                  //  coapRequest.setToken(tokenString.getBytes());
                     topico.setIdMensagem(currentMID);
                     
                     /** Registrar o tempo de envio em nanossegundos da mensagem */
@@ -93,6 +121,7 @@ public class CoAPController {
                     timestampEnvio.put(key, System.nanoTime());
 
                     client.setTimeout(TimeUnit.NANOSECONDS.toMillis(topico.getTimeout_dispositivo()) - System.currentTimeMillis() ); // Estabelece o timeout para a requisição.
+                             
                     
                     client.advanced(new CoapHandler() {
                         @Override
@@ -105,6 +134,8 @@ public class CoAPController {
                             processError(topico, coapRequest);                            
                         }
                     }, coapRequest);      
+                    
+             
             } 
             catch (URISyntaxException e) {
                 System.err.println("Invalid URI: " + e.getMessage());
@@ -115,17 +146,17 @@ public class CoAPController {
         	/**Implementação para outro protocolo, ICMP*/
         	
         	String ipv6Address = topico.getAddress();
-        	
-        	/** Registrar o horário de envio do ping */
-        	long sendTimePing = System.nanoTime();
 
         	PingResult result = ResultadoPing.ping(ipv6Address, TimeUnit.NANOSECONDS.toMillis(topico.getTimeout_dispositivo() - System.currentTimeMillis()));
-
-        	if (result.isSuccessful()) {
-        		
-        		topico.setIdMensagem(result.getMID());
-        		topico.setData_recebimento(result.getTimestamp());
         	
+        	topico.setIdMensagem(result.getMID());
+        	    		
+        	if (result.isSuccessful()) {        	
+        		
+        	  Long sendTime = ResultadoPing.getAndRemoveSendTime(ipv6Address, result.getMID());
+        	  
+              if (sendTime != null) {  
+        		  topico.setData_recebimento(result.getTimestamp());
         		  System.out.println("#################MENSAGEM ICMP############################################");
 				  System.out.println("ID da mensagem :  " + topico.getIdMensagem());
 				  System.out.println("Ping OK. Dispositivo " + topico.getAddress() + " funcionando!");
@@ -139,23 +170,29 @@ public class CoAPController {
 				
 					e.printStackTrace();
 				  }
-				disasterFd.logCoapTrace(topico.getDeviceID(), topico.getIdMensagem(),sendTimePing,topico.getData_recebimento(), 0);
-        	}        	 
+				disasterFd.logCoapTrace(topico.getDeviceID(), topico.getIdMensagem(),sendTime,topico.getData_recebimento(), 0);
+        	 }
+            }        	 
         	else {
+        		     
+        		     Long sendTime = ResultadoPing.getAndRemoveSendTime(ipv6Address, result.getMID());        	    
         		     System.err.println("#################FALHA DA MENSAGEM ICMP############################################");
   			         System.err.println("ID da mensagem :  " + topico.getIdMensagem());
+  			         System.err.println("Time :  " + result.getTimestamp());
   			         System.err.println("Ping Falhou, Dispositivo " + topico.getAddress() + " parado ou não está funcionando!");
   			         System.err.println("Intervalo Envio..: " + TimeUnit.NANOSECONDS.toMillis(conf.getTime_envio_mensagem()) +"ms");
                      System.err.println("#################FIM DA FALHA MENSAGEM ICMP########################################\n");
+                     
+                     topico.setData_recebimento(result.getTimestamp()); // Definir -1 em caso de falha
         	               	        
  	        	   try {
- 	        		      topico.setData_recebimento(System.nanoTime());
  	        		      disasterFd.execute(topico.getDeviceID(),topico.getData_recebimento(), true,topico.getIdMensagem());
 				   }
  	        	   catch (IOException e) {
 					
 					e.printStackTrace();
 				   }
+     		      disasterFd.logCoapTrace(topico.getDeviceID(), topico.getIdMensagem(),sendTime,topico.getData_recebimento(), 0);
         	    }
         }
     }
@@ -172,7 +209,7 @@ public class CoAPController {
             int sentMIDVal = deviceMID.get(topico.getAddress()).get();
             String sentToken = coapRequest.getTokenString();
 
-            if (sentMIDVal != responseMID || !sentToken.equals(responseToken)) {
+            if (sentMIDVal != responseMID && !sentToken.equals(responseToken)) {
                 System.err.println("Erro: MID ou token na resposta não corresponde ao MID ou token enviado!");
                 return;
             }
@@ -228,6 +265,18 @@ public class CoAPController {
 
     private void processError(Url topico, Request coapRequest) {
     	
+    	// Captura o MID e o Token da mensagem enviada
+        int sentMID = coapRequest.getMID();
+        String sentKey = topico.getAddress() + "_" + sentMID;
+
+        // Verifica se a chave de envio corresponde a um registro em timestampEnvio
+        Long sentTime = timestampEnvio.get(sentKey);
+        
+        if (sentTime == null) {
+            System.err.println("Erro: Não há registro de envio correspondente para o MID: " + sentMID);
+            return;
+        }
+    	
     	System.err.println("#################ERROR COAP MENSAGEM#####################################");
         System.err.println("Erro: Não foi possível obter uma resposta do servidor para a URL: " + topico.getAddress());
         System.err.println("MID da mensagem falha: " + coapRequest.getMID());
@@ -235,15 +284,21 @@ public class CoAPController {
         System.err.println("Intervalo Envio..: " + TimeUnit.NANOSECONDS.toMillis(conf.getTime_envio_mensagem()) +"ms");
         System.err.println("#################FIM ERROR COAP MENSAGEM#################################\n");
                 
-        								   
+        //Registra a falha no arquivo de log
+        disasterFd.logCoapTrace(topico.getDeviceID(), sentMID, sentTime, -1, 0); // -1 indica erro
+        
         try {
-     	   topico.setData_recebimento(System.nanoTime());								   
+     	       topico.setData_recebimento(System.nanoTime());								   
 	    	   disasterFd.execute(topico.getDeviceID(),topico.getData_recebimento(), true, topico.getIdMensagem());
 	    } 
         catch (IOException e) {
 		      e.printStackTrace();
 	   }
-    }
+        
+       // Remove o registro de envio para evitar vazamento de memória
+       timestampEnvio.remove(sentKey); 
+    } 
+   
 
     public static void main(String[] args) throws IOException {
     	
@@ -252,15 +307,15 @@ public class CoAPController {
 			System.exit(1);
 		}
 
-		path  = args[0];  // C:/Users/Abadio/COAP/Projeto_UFU/src/nos.json
-		path1 = args[1]; // C:/Users/Abadio/COAP/Projeto_UFU/src/execplan.json
-		path2 = args[2]; // "C:/Users/Abadio/COAP/Projeto_UFU/src/statistic.txt"
-		path3 = args[3]; // "C:/Users/Abadio/COAP/Projeto_UFU/src/Log_Coap.txt"
-		path4 = args[4]; // "C:/Users/Abadio/COAP/Projeto_UFU/src/relatorio.txt"
-		path5 = args[5]; // "C:/Users/Abadio/COAP/Projeto_UFU/src/"
+		path  = args[0]; //C:/Users/Abadio/Corrigido_COAP/disasterFd/src/nos.json
+		path1 = args[1]; // C:/Users/Abadio/Corrigido_COAP/disasterFd/src/execplan.json
+		path2 = args[2]; // "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/statistic.txt"
+		path3 = args[3]; // "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/Log_Coap.txt"
+		path4 = args[4]; // "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/relatorio.txt"
+		path5 = args[5]; // "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/"
 		path6 = args[6]; // "~/.iot-lab"
 		path7 = args[7]; // "/senslab/users/asilva/testes/"
-		path8 = args[8]; // "C:/Users/Abadio/COAP/Projeto_UFU/src/tempoProximoHeartbeat.txt"
+		path8 = args[8]; // "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/tempoProximoHeartbeat.txt"
 
         
     	File jsonFile = new File(path1);

@@ -146,7 +146,7 @@ public class Metricas {
     
    public void historicoDispositivo(int dispositivoId, long dataRegistro, int quantidade, String tipoRegistro) throws IOException {
 	    
-	    String nomeArquivo = Diretorio.caminho_SO() + tipoRegistro + ".csv";
+	    String nomeArquivo = Diretorio.caminho_SO() + tipoRegistro + ".txt";
 	        
 	    try (BufferedWriter writer = new BufferedWriter(new FileWriter(nomeArquivo, true))) {
 	        writer.write(dispositivoId + ";" + dataRegistro + ";" + quantidade + "\n");
@@ -154,7 +154,7 @@ public class Metricas {
 	}
 
    
-   public static void contadorErrosTemporal() throws IOException {
+  /* public static void contadorErrosTemporal() throws IOException {
 	   
 	    String nomeArquivoErro = Diretorio.caminho_SO() + "contadorErrosTemporal.csv"; 
 
@@ -167,17 +167,17 @@ public class Metricas {
 	            try (BufferedWriter writer = new BufferedWriter(new FileWriter(nomeArquivoErro, true))) {
 	                writer.write(dispositivoId + ";" + errosDispositivo.get(dispositivoId) + ";" + System.currentTimeMillis() + "\n");
 	            }
-	            /*Atualize o último valor registrado.*/
+	            //Atualize o último valor registrado.
 	            ultimoErroRegistrado.put(dispositivoId, errosDispositivo.get(dispositivoId));
 	        } 
 	        else {
-	               /*Se o valor não mudou (erro não aumentou), escreva uma mensagem indicando isso.*/
+	               //Se o valor não mudou (erro não aumentou), escreva uma mensagem indicando isso.
 	               try (BufferedWriter writer = new BufferedWriter(new FileWriter(nomeArquivoErro, true))) {
 	                writer.write(dispositivoId + ";Sem novos erros;" + System.currentTimeMillis() + "\n");
 	               }
 	             }
 	    }
-   }
+   }*/
    
    private static String millissegundosData(long lCDateTime) {
 

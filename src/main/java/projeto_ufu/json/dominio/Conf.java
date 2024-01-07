@@ -13,7 +13,7 @@ public class Conf implements Serializable {
     public int windows_size;
     public long margin;
     public int threshold;
-    public int alfa;
+    public long alfa;
     public String trace;
     public long timeout_dispositivo;  //tempo em milissegundos 60000ms para timeout de cada dispositivo
     public long timeout_mensagem;  //tempo em milissegundos 40ms para timeout de cada mensagem
@@ -26,7 +26,7 @@ public class Conf implements Serializable {
         super();
     }
 
-    public Conf(String server, int windows_size, long margin, int threshold, int alfa, String trace,
+    public Conf(String server, int windows_size, long margin, int threshold, long alfa, String trace,
 			long timeout_dispositivo, long timeout_mensagem, long time_envio_mensagem, long time_analiseRede,
 			long time_consumo_energia, HostMonitor[] outros_monitores) {
 
@@ -76,11 +76,11 @@ public class Conf implements Serializable {
         this.threshold = threshold;
     }
 
-    public int getAlfa() {
+    public long getAlfa() {
         return alfa;
     }
 
-    public void setAlfa(int alfa) {
+    public void setAlfa(long alfa) {
         this.alfa = alfa;
     }
 
