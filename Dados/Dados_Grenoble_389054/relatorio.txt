@@ -1,0 +1,1617 @@
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             false                                   10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             false                                   10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             false                                   10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             false                                   10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              false                                   20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              false                                   20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              false                                   20                                 
+
+*********** false = 60 *********** Relatório Gerado em : 04/01/2024 02:47:15.860 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             false                                   10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             false                                   10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             false                                   10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             false                                   10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** false = 120 *********** Relatório Gerado em : 04/01/2024 03:17:15.813 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             true                                    10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 03:47:15.790 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             true                                    10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 04:17:15.791 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             true                                    10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             false                                   10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 170 *********** Relatório Gerado em : 04/01/2024 04:47:15.789 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             true                                    10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             false                                   10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 170 *********** Relatório Gerado em : 04/01/2024 05:17:15.789 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             false                                   10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 160 *********** Relatório Gerado em : 04/01/2024 05:47:15.791 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 170 *********** Relatório Gerado em : 04/01/2024 06:17:15.790 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 190 *********** Relatório Gerado em : 04/01/2024 06:47:15.795 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 07:17:15.790 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 07:47:15.788 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 08:17:15.793 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 08:47:15.790 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 09:17:15.796 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 09:47:15.789 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 190 *********** Relatório Gerado em : 04/01/2024 10:17:15.795 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 190 *********** Relatório Gerado em : 04/01/2024 10:47:15.790 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 200 *********** Relatório Gerado em : 04/01/2024 11:17:15.791 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             true                                    10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 210 *********** Relatório Gerado em : 04/01/2024 11:47:15.796 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 190 *********** Relatório Gerado em : 04/01/2024 12:17:15.793 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 190 *********** Relatório Gerado em : 04/01/2024 12:47:15.790 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 190 *********** Relatório Gerado em : 04/01/2024 13:17:15.789 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             false                                   10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 13:47:15.793 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 200 *********** Relatório Gerado em : 04/01/2024 14:17:15.794 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             false                                   10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 190 *********** Relatório Gerado em : 04/01/2024 14:47:15.797 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 200 *********** Relatório Gerado em : 04/01/2024 15:17:15.790 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 200 *********** Relatório Gerado em : 04/01/2024 15:47:15.790 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             false                                   10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             false                                   10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             false                                   10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             false                                   10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             false                                   10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             false                                   10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** false = 120 *********** Relatório Gerado em : 04/01/2024 16:17:15.799 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 16:47:15.791 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 17:17:15.797 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 17:47:15.790 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 18:17:15.791 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 18:47:15.792 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 19:17:15.791 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 19:47:15.790 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 04/01/2024 20:17:15.793 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             false                                   10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 170 *********** Relatório Gerado em : 04/01/2024 20:47:15.796 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             false                                   10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 170 *********** Relatório Gerado em : 04/01/2024 21:17:15.791 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             false                                   10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 170 *********** Relatório Gerado em : 04/01/2024 21:47:15.790 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             false                                   10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 170 *********** Relatório Gerado em : 04/01/2024 22:17:15.791 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 190 *********** Relatório Gerado em : 04/01/2024 22:47:15.792 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 200 *********** Relatório Gerado em : 04/01/2024 23:17:15.795 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 200 *********** Relatório Gerado em : 04/01/2024 23:47:15.791 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 200 *********** Relatório Gerado em : 05/01/2024 00:17:15.791 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 190 *********** Relatório Gerado em : 05/01/2024 00:47:15.794 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 190 *********** Relatório Gerado em : 05/01/2024 01:17:15.796 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             false                                   10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             false                                   10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 180 *********** Relatório Gerado em : 05/01/2024 01:47:15.791 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 200 *********** Relatório Gerado em : 05/01/2024 02:17:15.793 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:5307:3100::9376]:5683/sensors/gyros             true                                    10                                 
+
+1              coap://[2001:660:5307:3100::a072]:5683/sensors/gyros             false                                   10                                 
+
+2              coap://[2001:660:5307:3100::a468]:5683/sensors/gyros             true                                    10                                 
+
+3              coap://[2001:660:5307:3100::9881]:5683/sensors/gyros             true                                    10                                 
+
+4              coap://[2001:660:5307:3100::b576]:5683/sensors/gyros             true                                    10                                 
+
+5              coap://[2001:660:5307:3100::a071]:5683/sensors/gyros             true                                    10                                 
+
+6              coap://[2001:660:5307:3100::1062]:5683/sensors/gyros             true                                    10                                 
+
+7              coap://[2001:660:5307:3100::a775]:5683/sensors/gyros             true                                    10                                 
+
+8              coap://[2001:660:5307:3100::8477]:5683/sensors/gyros             false                                   10                                 
+
+9              coap://[2001:660:5307:3100::8572]:5683/sensors/gyros             true                                    10                                 
+
+10             2a07:2e40:fffe:e0::a484                                          true                                    60                                 
+
+11             coap://[2a07:2e40:fffe:e0::b384]:5683/sensors/magne              true                                    20                                 
+
+12             coap://[2a07:2e40:fffe:e0::a488]:5683/sensors/magne              true                                    20                                 
+
+13             coap://[2a07:2e40:fffe:e0::a586]:5683/sensors/magne              true                                    20                                 
+
+*********** true = 200 *********** Relatório Gerado em : 05/01/2024 02:47:15.789 *********** FIM DO RELATÓRIO ************** 
+
