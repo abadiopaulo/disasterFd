@@ -24,7 +24,9 @@ public class Server {
     
     /*clientNames é um mapa que associa o endereço IP dos clientes aos seus nomes.*/
     private Map<String, String> clientNames;
-  
+    
+    // Agora o Server tem um campo de instância para a configuração
+    private Conf conf;  
     
     /*Essa classe interna estática define a estrutura de dados para armazenar informações de um cliente conectado ao servidor. 
      * Ela possui três campos: 
@@ -49,13 +51,13 @@ public class Server {
     private Map<String, ClientInfo> clientMap = new HashMap<>();
   
     /*O construtor inicializa o mapa clientNames com os endereços IP e nomes dos clientes fornecidos por meio do objeto Fd_Disaster.conf.*/
-    public Server() {
+    public Server(Conf config) {
         
         clientNames = new HashMap<>();
        
-        if (CoAPController.conf != null) {
+        if (conf != null) {
 		 
-			  for (Conf.HostMonitor hostMonitor : CoAPController.conf.outros_monitores) {
+			  for (Conf.HostMonitor hostMonitor : config.outros_monitores) {
 		        clientNames.put(hostMonitor.ip, hostMonitor.hostname);
 		      }
 		  }

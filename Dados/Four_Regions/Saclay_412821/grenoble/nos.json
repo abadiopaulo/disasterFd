@@ -1,0 +1,21 @@
+[{
+  "deviceID": 0,
+  "protocol": "coap",
+  "address": "coap://[2001:660:5307:3110::8572]:5683/sensors/light",
+  "factorImpact": 20
+},{
+  "deviceID": 1,
+  "protocol": "coap",
+  "address": "coap://[2001:660:5307:3110::a879]:5683/sensors/pressure",
+  "factorImpact": 20
+},{
+  "deviceID": 2,
+  "protocol": "coap",
+  "address": "coap://[2001:660:5307:3110::a578]:5683/sensors/gyros",
+  "factorImpact": 20
+},{
+  "deviceID": 3,
+  "protocol": "icmp",
+  "address": "2001:660:5307:3110::b179",
+  "factorImpact": 60
+}]

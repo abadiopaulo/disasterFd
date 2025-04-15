@@ -9,7 +9,6 @@ import org.eclipse.californium.core.coap.CoAP.Type;
 import projeto_ufu.fd.DisasterFd;
 import projeto_ufu.json.converter.Conf_Converter;
 import projeto_ufu.json.converter.ListaObjetos_Converter;
-import projeto_ufu.json.converter.Objeto_Converter;
 import projeto_ufu.json.converter.Url_Converter;
 import projeto_ufu.json.dominio.Conf;
 import projeto_ufu.json.dominio.Url;
@@ -33,8 +32,8 @@ import java.util.*;
 public class CoAPController {
 
 	private MonitorDeThreads monitorDeThreads;
-	public  static List<Url> lista_topicos;
-    public  static Conf conf;
+	public  List<Url> lista_topicos;
+    public  Conf conf;
     private final Map<String, AtomicInteger> deviceMID = new HashMap<>();
     private final Map<String, AtomicInteger> deviceTokenIds = new HashMap<>();
     
@@ -46,34 +45,34 @@ public class CoAPController {
         
     private Tarefas tarefas;
     
-    public static String path = "", path1 = "", path2 = "", path3 = "", path4 = "", path5 = "", path6 = "", path7 ="", path8 ="";
+    private String regionBaseDir;
+    
+    private ResultadoPing resultadoPing;
+    
+    //public static String path = "", path1 = "", path2 = "", path3 = "", path4 = "", path5 = "", path6 = "", path7 ="", path8 ="";
+    
+    public CoAPController(List<Url> lista_topicos, Conf conf,String logCoapTracePath, String statisticPath,
+            String relatorioPath, String tempoHeartbeatPath, String regionBaseDir) {
+    	
+     this.lista_topicos = lista_topicos; 
+     this.conf = conf;
+     this.regionBaseDir = regionBaseDir;
+     this.resultadoPing = new ResultadoPing(regionBaseDir); 
 
-    
-    public CoAPController(List<Url> lista_topicos, Conf conf) {
-    
-    	CoAPController.lista_topicos = lista_topicos; 
-        CoAPController.conf = conf;
-    
-        this.disasterFd = new DisasterFd(conf.threshold, conf.margin, conf.windows_size, conf.server); 
-        this.tarefas = new Tarefas(this.disasterFd);
+     // Crie o DisasterFd passando os caminhos específicos para a região
+     this.disasterFd = new DisasterFd(conf.threshold, conf.margin, conf.windows_size, conf.server,
+                           logCoapTracePath, statisticPath, relatorioPath, tempoHeartbeatPath,
+                           conf.getTime_envio_mensagem(), regionBaseDir, lista_topicos);
+     
+     this.tarefas = new Tarefas(this.disasterFd, conf, regionBaseDir);
+     
     }
-    
-  /*  public void start() {
-       
-    	for (Url topico : lista_topicos) {
-    		
-            scheduler.scheduleAtFixedRate(() -> sendCoapRequest(topico), 0, conf.getTime_envio_mensagem(), TimeUnit.NANOSECONDS);
-
-        }
-         Inicie todas as tarefas adicionais 
-        tarefas.iniciarTarefas();   
-    }*/
-    
+     
     public void start() {
     	
      //Inicialização da variável monitorDeThreads       
 
-     this.monitorDeThreads = new MonitorDeThreads(this, lista_topicos.size());
+    	this.monitorDeThreads = new MonitorDeThreads(this, lista_topicos.size(), regionBaseDir);
 
 
      for (Url topico : lista_topicos) {
@@ -147,13 +146,13 @@ public class CoAPController {
         	
         	String ipv6Address = topico.getAddress();
 
-        	PingResult result = ResultadoPing.ping(ipv6Address, TimeUnit.NANOSECONDS.toMillis(topico.getTimeout_dispositivo() - System.currentTimeMillis()));
+        	PingResult result = this.resultadoPing.ping(ipv6Address, TimeUnit.NANOSECONDS.toMillis(topico.getTimeout_dispositivo() - System.currentTimeMillis()));
         	
         	topico.setIdMensagem(result.getMID());
         	    		
         	if (result.isSuccessful()) {        	
         		
-        	  Long sendTime = ResultadoPing.getAndRemoveSendTime(ipv6Address, result.getMID());
+        	  Long sendTime = this.resultadoPing.getAndRemoveSendTime(ipv6Address, result.getMID());
         	  
               if (sendTime != null) {  
         		  topico.setData_recebimento(result.getTimestamp());
@@ -170,12 +169,12 @@ public class CoAPController {
 				
 					e.printStackTrace();
 				  }
-				disasterFd.logCoapTrace(topico.getDeviceID(), topico.getIdMensagem(),sendTime,topico.getData_recebimento(), 0);
+				disasterFd.logCoapTrace(topico.getDeviceID(), topico.getIdMensagem(),sendTime,topico.getData_recebimento(), conf.alfa);
         	 }
             }        	 
         	else {
         		     
-        		     Long sendTime = ResultadoPing.getAndRemoveSendTime(ipv6Address, result.getMID());        	    
+        		     Long sendTime = this.resultadoPing.getAndRemoveSendTime(ipv6Address, result.getMID());        	    
         		     System.err.println("#################FALHA DA MENSAGEM ICMP############################################");
   			         System.err.println("ID da mensagem :  " + topico.getIdMensagem());
   			         System.err.println("Time :  " + result.getTimestamp());
@@ -192,7 +191,7 @@ public class CoAPController {
 					
 					e.printStackTrace();
 				   }
-     		      disasterFd.logCoapTrace(topico.getDeviceID(), topico.getIdMensagem(),sendTime,topico.getData_recebimento(), 0);
+     		      disasterFd.logCoapTrace(topico.getDeviceID(), topico.getIdMensagem(),sendTime,topico.getData_recebimento(), conf.alfa);
         	    }
         }
     }
@@ -258,7 +257,7 @@ public class CoAPController {
 				e.printStackTrace();
 			}
             disasterFd.logCoapTrace(topico.getDeviceID(), topico.getIdMensagem(),topico.getData_envio(),
-            		   topico.getData_recebimento(), 0);
+            		   topico.getData_recebimento(), conf.alfa);
             
         }
     }
@@ -285,7 +284,7 @@ public class CoAPController {
         System.err.println("#################FIM ERROR COAP MENSAGEM#################################\n");
                 
         //Registra a falha no arquivo de log
-        disasterFd.logCoapTrace(topico.getDeviceID(), sentMID, sentTime, -1, 0); // -1 indica erro
+        disasterFd.logCoapTrace(topico.getDeviceID(), sentMID, sentTime, -1, conf.alfa); // -1 indica erro
         
         try {
      	       topico.setData_recebimento(System.nanoTime());								   
@@ -302,41 +301,63 @@ public class CoAPController {
 
     public static void main(String[] args) throws IOException {
     	
-    	if (args.length < 9) {
-			System.out.println("Informar caminho para arquivo de configuracao");
-			System.exit(1);
-		}
-
-		path  = args[0]; //C:/Users/Abadio/Corrigido_COAP/disasterFd/src/nos.json
-		path1 = args[1]; // C:/Users/Abadio/Corrigido_COAP/disasterFd/src/execplan.json
-		path2 = args[2]; // "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/statistic.txt"
-		path3 = args[3]; // "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/Log_Coap.txt"
-		path4 = args[4]; // "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/relatorio.txt"
-		path5 = args[5]; // "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/"
-		path6 = args[6]; // "~/.iot-lab"
-		path7 = args[7]; // "/senslab/users/asilva/testes/"
-		path8 = args[8]; // "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/tempoProximoHeartbeat.txt"
-
-        
-    	File jsonFile = new File(path1);
-        
-    	Objeto_Converter<Conf> converterConf = new Conf_Converter();
-        
-        try {
-            conf = converterConf.fromJSON(jsonFile);
-        } catch (Exception e) {
-            e.printStackTrace();
+    	if(args.length < 2) {
+            System.out.println("Uso: java -jar SeuJar.jar <baseDirectory> <region1,region2,...>");
+            System.exit(1);
         }
-
-        ListaObjetos_Converter<Url> converterUrl = new Url_Converter();
-        InputStream is = Files.newInputStream(Paths.get(path));
-
-        lista_topicos = converterUrl.jsonToCollection(is);
-            
-       	CoAPController controller = new CoAPController(lista_topicos, conf);
-
-        controller.start();
-    }
+        
+        // Diretório base para os arquivos
+        String baseDir = args[0];
+        if(!baseDir.endsWith(File.separator)) {
+            baseDir += File.separator;
+        }
+        
+        // Lista de regiões, separadas por vírgula
+        String[] regioes = args[1].split(",");
+        
+        // Para cada região, constrói os caminhos e inicia o monitoramento
+        for(String regiao : regioes) {
+            try {
+                // Define o diretório específico da região
+                String regionDir = baseDir + regiao + File.separator;
+                File regionFolder = new File(regionDir);
+                if(!regionFolder.exists()) {
+                    regionFolder.mkdirs();
+                }
+                
+                // Constrói os caminhos dos arquivos para essa região
+                String configPath = regionDir + "execplan.json";
+                String devicesPath = regionDir + "nos.json";
+                String logCoapPath = regionDir + "Log_Coap.csv";
+                String relatorioPath = regionDir + "relatorio.txt";
+                String statisticPath = regionDir + "statistic.csv";
+                // Se necessário, outro arquivo, por exemplo:
+                String tempoHeartbeatPath = regionDir + "tempoProximoHeartbeat.csv";
+                
+                // Carrega a configuração da região
+                File configFile = new File(configPath);
+                Conf_Converter confConv = new Conf_Converter();
+                Conf config = confConv.fromJSON(configFile);
+                
+                // Carrega a lista de dispositivos da região
+                InputStream devicesIS = Files.newInputStream(Paths.get(devicesPath));
+                ListaObjetos_Converter<Url> urlConv = new Url_Converter(config.getTimeout_dispositivo());
+                List<Url> devices = urlConv.jsonToCollection(devicesIS);
+                   
+                // Cria a instância do monitor para a região
+                // Aqui usamos uma classe wrapper "RegionMonitor" para encapsular os componentes
+                MonitorRegiao monitor = new MonitorRegiao(regiao, configPath, devicesPath, logCoapPath, relatorioPath, statisticPath);
+                
+                // Inicia o monitoramento em uma thread separada
+                new Thread(() -> monitor.start()).start();
+                
+                System.out.println("Monitoramento iniciado para a região: " + regiao);
+            } catch (Exception e) {
+                System.err.println("Erro ao iniciar monitoramento para a região: " + regiao);
+                e.printStackTrace();
+            }
+        }
+     }
     
     /**
      * Método que que retorna o tempo atual em Nanossegundos como um valor long. Esse valor é obtido

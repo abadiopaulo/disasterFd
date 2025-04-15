@@ -7,7 +7,6 @@ import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import projeto_ufu.principal.CoAPController;
 import projeto_ufu.util.LoggerUtil;
 
 public class Diretorio {
@@ -26,14 +25,14 @@ public class Diretorio {
     private static final Logger logger = LoggerUtil.getLogger(Diretorio.class);
     
 
-    public static void leituraDiretorio(long getTimeEnvioMensagem) {
+    public static void leituraDiretorio(long getTimeEnvioMensagem, String baseDir) {
 
         if (Diretorio.e_Windows()) {
-            folder = CoAPController.path5;
+            folder = "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/consumo";
         } else {
-            folder = CoAPController.path6;
+            folder = "/senslab/users/asilva/.iot-lab"; 
         }
-
+        
         /** Obter o diretório mais recente */
         File[] directories = new File(folder).listFiles(File::isDirectory);
         
@@ -48,10 +47,18 @@ public class Diretorio {
         
         /** Inicializar map para armazenar as linhas de cada arquivo */
         Map<String, List<String[]>> fileContentMap = new HashMap<>();
+        
+        //Logar Consumior
+        logger.info("Diretório mais recente encontrado: " + (diretorioRecente != null ? diretorioRecente.getAbsolutePath() : "Nenhum encontrado!"));
+
 
         /** Ler o conteúdo de cada arquivo com extensão *.OML na pasta consumption */
         String consumptionPath = new File(diretorioRecente, "consumption").getAbsolutePath();
         //System.out.println("Diretório consumption encontrado: " + consumptionPath);
+        
+       //logar jljkljkl
+        logger.info("Tentando acessar consumptionPath: " + consumptionPath);
+
      
         /*Lê os arquivos com extensão .oml no diretório de consumo*/
         try{         
@@ -147,7 +154,7 @@ public class Diretorio {
 
                     double ultimoValor = quintaColuna.get(quintaColuna.size() - 1);
                     String arquivo_estatistica = "estatistica_consumo.txt";
-                    escreverEstatisticas(arquivo_estatistica, nome_arquivo, valor_minimo, valor_maximo, valor_medio, ultimoValor, getTimeEnvioMensagem);
+                    escreverEstatisticas(arquivo_estatistica, nome_arquivo, valor_minimo, valor_maximo, valor_medio, ultimoValor, getTimeEnvioMensagem,baseDir);
                }
               }
         } catch (Exception e) {
@@ -157,9 +164,9 @@ public class Diretorio {
     }
 
     private static void escreverEstatisticas(String arquivo_estatistica, String nome_arquivo, double valor_minimo,
-    	    double valor_maximo, double valor_medio, double ultimoValor, long getTimeEnvioMensagem) {
+    	    double valor_maximo, double valor_medio, double ultimoValor, long getTimeEnvioMensagem, String baseDir) {
     	    	
-    	    	String caminho_SO = Diretorio.caminho_SO();
+    	     String caminho_SO = Diretorio.caminho_SO(baseDir);
     	    	
     	      try (
     	                FileWriter writer = new FileWriter( caminho_SO + arquivo_estatistica, true)) {
@@ -186,16 +193,23 @@ public class Diretorio {
         return osName.toLowerCase().startsWith("windows");
     }
 
-    public static String caminho_SO() {
+    public static String caminho_SO(String baseDir) {
 
-        String caminho_Log_Coap;
+        //String caminho_Log_Coap;
 
-        if (Diretorio.e_Windows()) {
-            caminho_Log_Coap = CoAPController.path5;
-        } else {
-            caminho_Log_Coap = CoAPController.path7;
-        }
+        //if (Diretorio.e_Windows()) {
+       //     caminho_Log_Coap = "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/";
+       // } else {
+       //     caminho_Log_Coap = "/senslab/users/asilva/testes/"; 
+       // }
 
-        return caminho_Log_Coap;
+      //  return caminho_Log_Coap;
+    	
+      if (baseDir != null && !baseDir.trim().isEmpty()) {
+        return baseDir;
+      }
+        // Caso não tenha sido passado, retorna o padrão conforme S.O
+        return e_Windows() ? "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/" : "/senslab/users/asilva/testes/";
     }
+    //}
 }

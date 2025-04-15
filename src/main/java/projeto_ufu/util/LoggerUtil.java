@@ -8,7 +8,6 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 //import ping.Fd_Disaster;
-import projeto_ufu.principal.CoAPController;
 import projeto_ufu.service.Diretorio;
 
 public class LoggerUtil {
@@ -19,9 +18,9 @@ public class LoggerUtil {
 	public static synchronized Logger getLogger(Class<?> clazz) {
 		
 		if (Diretorio.e_Windows()) {
-			caminho_pasta = CoAPController.path5;
+			caminho_pasta = "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/";
 		} else {
-			caminho_pasta = CoAPController.path7;
+			caminho_pasta = "/senslab/users/asilva/testes/";
 		}
 
 		if (!handlerConfigured) {

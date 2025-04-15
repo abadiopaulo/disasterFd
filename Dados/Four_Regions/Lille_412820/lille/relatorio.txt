@@ -1,0 +1,2107 @@
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 02:12:35.844 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 02:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          true                                    10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              true                                    10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 20 *********** Relatório Gerado em : 04/03/2025 03:12:35.829 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 03:42:35.829 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 04:12:35.827 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 04:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 05:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 05:42:35.829 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 06:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 06:42:35.827 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 07:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 07:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 08:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 08:42:35.827 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 09:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 09:42:35.830 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 10:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 10:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 11:12:35.830 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 11:42:35.829 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 12:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 12:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 13:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 13:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              true                                    10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           true                                    10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 20 *********** Relatório Gerado em : 04/03/2025 14:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 14:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 15:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 15:42:35.827 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           true                                    10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              true                                    10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              true                                    10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          true                                    10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           true                                    10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            true                                    10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 60 *********** Relatório Gerado em : 04/03/2025 16:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           true                                    10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 10 *********** Relatório Gerado em : 04/03/2025 16:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 17:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 17:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 18:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 18:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 19:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 19:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 20:12:35.827 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 20:42:35.827 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 21:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 21:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 22:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 22:42:35.830 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 23:12:35.827 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 23:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              true                                    10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              true                                    10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 20 *********** Relatório Gerado em : 05/03/2025 00:12:35.827 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 05/03/2025 00:42:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 05/03/2025 01:12:35.828 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              false                                   10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              false                                   10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 0 *********** Relatório Gerado em : 05/03/2025 01:42:35.827 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2001:660:4403:480::958]:5683/sensors/light               false                                   10                                 
+
+1              coap://[2001:660:4403:480::9977]:5683/sensors/pressure           false                                   10                                 
+
+2              coap://[2001:660:4403:480::8673]:5683/sensors/gyros              false                                   10                                 
+
+3              coap://[2001:660:4403:480::1654]:5683/sensors/accel              false                                   10                                 
+
+4              coap://[2001:660:4403:480::a689]:5683/sensors/magne              true                                    10                                 
+
+5              coap://[2001:660:4403:480::1658]:5683/test/hello?len=80          false                                   10                                 
+
+6              coap://[2001:660:4403:480::3458]:5683/sensors/light              false                                   10                                 
+
+7              coap://[2001:660:4403:480::2855]:5683/sensors/pressure           false                                   10                                 
+
+8              coap://[2001:660:4403:480::a070]:5683/sensors/gyros              false                                   10                                 
+
+9              coap://[2001:660:4403:480::1859]:5683/sensors/accel              false                                   10                                 
+
+10             coap://[2001:660:4403:480::1957]:5683/sensors/magne              false                                   10                                 
+
+11             coap://[2001:660:4403:480::2257]:5683/test/hello?len=80          false                                   10                                 
+
+12             coap://[2001:660:4403:480::9989]:5683/sensors/light              false                                   10                                 
+
+13             coap://[2001:660:4403:480::759]:5683/sensors/pressure            false                                   10                                 
+
+14             coap://[2001:660:4403:480::8573]:5683/sensors/gyros              false                                   10                                 
+
+15             coap://[2001:660:4403:480::2850]:5683/sensors/accel              true                                    10                                 
+
+16             coap://[2001:660:4403:480::1359]:5683/sensors/magne              false                                   10                                 
+
+17             coap://[2001:660:4403:480::b870]:5683/test/hello?len=80          false                                   10                                 
+
+18             coap://[2001:660:4403:480::a871]:5683/sensors/light              false                                   10                                 
+
+*********** false = 20 *********** Relatório Gerado em : 05/03/2025 02:12:35.828 *********** FIM DO RELATÓRIO ************** 
+

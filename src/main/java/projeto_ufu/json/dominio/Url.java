@@ -1,9 +1,6 @@
 package projeto_ufu.json.dominio;
 
 import java.io.Serializable;
-import java.util.concurrent.TimeUnit;
-
-import projeto_ufu.principal.CoAPController;
 
 public class Url implements Serializable, Comparable<Url> {
 
@@ -22,9 +19,6 @@ public class Url implements Serializable, Comparable<Url> {
 		
 	public Url() {
 	 super();	
-
-	 this.timeout_dispositivo = ( System.nanoTime() + CoAPController.conf.getTimeout_dispositivo() );
-	
 	}
 
 	public Url(int deviceID, String protocol, int idMensagem, long data_envio, long data_recebimento, String address,
@@ -52,7 +46,6 @@ public class Url implements Serializable, Comparable<Url> {
 		this.data_recebimento = 0;
 		this.address = address;
 		this.factorImpact = factorImpact;		
-		this.timeout_dispositivo = CoAPController.conf.getTimeout_dispositivo();
 		this.trusted = true;
 		this.funcionouPeloMenosUmaVez = false;		
 	}

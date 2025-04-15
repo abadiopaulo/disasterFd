@@ -1,6 +1,5 @@
 package projeto_ufu.fd;
 
-import static projeto_ufu.principal.CoAPController.lista_topicos;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -58,22 +57,32 @@ public class DisasterFd {
 	 * os heartbeats (pulsos)
 	 * enviados pelos dispositivos na rede.
 	 */
-	private final long Ai = CoAPController.conf.time_envio_mensagem; // nanoseconds 400000000 = 400 miliseconds - intervalo envio
+	// Adicione um campo de instância para a lista de tópicos
+    private List<Url> lista_topicos;
+    
+	private final long Ai;// nanoseconds 400000000 = 400 miliseconds - intervalo envio
 	private final Queue<DeviceReply>[] A; // Queue ou Fila usado para armazenar tempos de resposta medidos de cada no
 	private long EA = 0;
 	private String server;
 	private int windows_size = 0;// Tamanho da Janela;
 	private long margin;
 	private int threshold;
-	private int alfa;
+	private boolean alfaFlag;
 	private int lin;
 	private long trustLevel = 0;
 
 	private final boolean[] trusted;
 	
-	private Metricas metricas = new Metricas();
+	private Metricas metricas;
 
 	private static final Logger logger = LoggerUtil.getLogger(DisasterFd.class);
+	
+	// Campos para os caminhos dos arquivos de log
+    private String logCoapTracePath;
+    private String statisticPath;
+    private String relatorioPath;
+    private String tempoHeartbeatPath;
+    private String regionBaseDir;
 
 	/*
 	 * Biblioteca Apache Commons Math, onde especificamente a classe
@@ -94,13 +103,26 @@ public class DisasterFd {
 	private String status_rede;
 	private boolean untrusted = false;
 
-	public DisasterFd(int threshold, long margin, int windows_size, String server) {
+	public DisasterFd(int threshold, long margin, int windows_size, String server,
+            String logCoapTracePath, String statisticPath, String relatorioPath, String tempoHeartbeatPath,
+            long time_envio_mensagem,String regionBaseDir, List<Url> lista_topicos) {
 
 		/*
 		 * Variável que será usado para calcular estatísticas descritivas para um
 		 * conjunto de dados que podem
 		 * conter até 45140000 valores.
 		 */
+		// Inicialize o campo da lista
+        this.lista_topicos = lista_topicos;
+        this.Ai = time_envio_mensagem;
+        
+        this.logCoapTracePath = logCoapTracePath;
+	    this.statisticPath = statisticPath;
+	    this.relatorioPath = relatorioPath;
+	    this.tempoHeartbeatPath = tempoHeartbeatPath;
+	    this.regionBaseDir = regionBaseDir;
+	    this.metricas = new Metricas(regionBaseDir, lista_topicos);
+		
 		samplesDT = new DescriptiveStatistics(45140000); // estatasticas de tempo de deteccao
 
 		this.windows_size = windows_size;
@@ -396,17 +418,19 @@ public class DisasterFd {
 	 * A cada verificação da confiabilidade do sistema a Lista será reinicializada
 	 * verificando se novos novos Nós foram adicionados ou removidos no arquivo JSON (no.json)
 	 */
-	public static void reinicializarLista(String path) throws IOException {
+	public void reinicializarLista(String path) throws IOException {
+
+		// Constrói o caminho do arquivo JSON específico para esta região
+	    String filePath = this.regionBaseDir + File.separator + "nos.json";
 
 		/*
 		 * Cria um conversor para transformar o arquivo JSON em uma lista de objetos Url
 		 */
-		ListaObjetos_Converter<Url> converter = new Url_Converter();
+		ListaObjetos_Converter<Url> converter = new Url_Converter(50000);
 
-		InputStream is = Files.newInputStream(Paths.get(path));
-
-		/* Converte o arquivo JSON em uma nova lista de objetos Url */
-		List<Url> newList = converter.jsonToCollection(is);
+		  // Lê o arquivo e converte para uma lista de URLs
+	    InputStream is = Files.newInputStream(Paths.get(filePath));
+	    List<Url> newList = converter.jsonToCollection(is);
 
 		/* Cria um conjunto de IDs de dispositivos que existem no novo arquivo JSON */
 		Set<Integer> newIds = new HashSet<>();
@@ -479,13 +503,13 @@ public class DisasterFd {
 	 * resposta
 	 * das requisições solicitadas ao Servidor COAP.
 	 */
-	public void logCoapTrace(int idDispositivo, int idMensagem, long time_request, long time_response, int alpha) {
+	public void logCoapTrace(int idDispositivo, int idMensagem, long time_request, long time_response, boolean alpha) {
 
 		/**
 		 * Prepara para escrever no arquivo TXT gerando o histórico
 		 * dos heartbeat
 		 */
-		try (BufferedWriter bw = new BufferedWriter(new FileWriter(CoAPController.path3, true))) {
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(this.logCoapTracePath, true))) {
 
 			/* Escreve no arquivo */
 			bw.write(idDispositivo + ";" + idMensagem + ";" + time_request + ";" + time_response + ";" + alpha + "\n");
@@ -500,7 +524,7 @@ public class DisasterFd {
 		 * Prepara para escrever no arquivo TXT gerando o histórico
 		 * dos heartbeat
 		 */
-		try (BufferedWriter bw = new BufferedWriter(new FileWriter(CoAPController.path8, true))) {
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(this.tempoHeartbeatPath, true))) {
 
 			/* Escreve no arquivo */
 			bw.write(idDispositivo + ";" + idMensagem + ";" + timeout + ";" + arrivalTime + "\n");
@@ -511,7 +535,7 @@ public class DisasterFd {
 	
 	public void nivelTrustRede(int status, long timestamp) {
 		
-		String nomeArquivo = Diretorio.caminho_SO() + "trustLog.csv";
+		String nomeArquivo = this.regionBaseDir + File.separator + "trustLog.csv";
       
 		try (BufferedWriter bw = new BufferedWriter(new FileWriter(nomeArquivo, true))) {
             bw.write(status + ";" + timestamp + "\n");      
@@ -534,7 +558,7 @@ public class DisasterFd {
 		String[] columnHeaders = { "ID", "URL", "NÓ RESPONDEU", "Fator de Impacto" };
 
 		// Carrega o arquivo de Relatório
-		try (BufferedWriter bw = new BufferedWriter(new FileWriter(CoAPController.path4, true))) {
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(this.relatorioPath, true))) {
 
 			bw.write(reportTitle);
 			bw.newLine();
@@ -603,7 +627,7 @@ public class DisasterFd {
 		pa = (1 - ((double) this.mistakeTime / (double) this.totTime)); /* calculate pa */
 
 		
-    	File file = new File(CoAPController.path2);
+		File file = new File(this.statisticPath);
         boolean escreverCabecalho = !file.exists() || file.length() == 0;
 
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(file, true))) {

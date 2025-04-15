@@ -2,6 +2,7 @@ package projeto_ufu.principal;
 
 import java.util.concurrent.*;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -23,11 +24,13 @@ public class MonitorDeThreads {
     private final Map<String, ThreadState> threadStates = new ConcurrentHashMap<>();
     private final ScheduledExecutorService scheduler;
     private final CoAPController controller;
+    private final String baseDir;
 
-     public MonitorDeThreads(CoAPController controller, int threadPoolSize) {
+    public MonitorDeThreads(CoAPController controller, int threadPoolSize, String baseDir) {
     	
         this.controller = controller;
         this.scheduler = Executors.newScheduledThreadPool(threadPoolSize);
+        this.baseDir = baseDir;
     }
 
     public void agendarTarefa(Url topico) {
@@ -55,7 +58,8 @@ public class MonitorDeThreads {
 
     private void checkAndRestartThreads() {
     	
-    	String nomeArquivo = Diretorio.caminho_SO() + "logEstadoThreads.txt";
+    	// Use o baseDir da região para gerar o caminho do log de estado das threads
+    	String nomeArquivo = baseDir + File.separator + "logEstadoThreads.txt";
     	
         long threshold = TimeUnit.SECONDS.toNanos(5);
 

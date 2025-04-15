@@ -1,0 +1,51 @@
+[{
+  "deviceID": 0,
+  "protocol": "coap",
+  "address": "coap://[2001:660:3207:4c0::1160]:5683/sensors/light",
+  "factorImpact": 10
+},{
+  "deviceID": 1,
+  "protocol": "coap",
+  "address": "coap://[2001:660:3207:4c0::c471]:5683/sensors/pressure",
+  "factorImpact": 10
+},{
+  "deviceID": 2,
+  "protocol": "coap",
+  "address": "coap://[2001:660:3207:4c0::2353]:5683/sensors/gyros",
+  "factorImpact": 10
+},{
+  "deviceID": 3,
+  "protocol": "coap",
+  "address": "coap://[2001:660:3207:4c0::2661]:5683/sensors/accel",
+  "factorImpact": 10
+},{
+  "deviceID": 4,
+  "protocol": "coap",
+  "address": "coap://[2001:660:3207:4c0::c374]:5683/sensors/magne",
+  "factorImpact": 10
+},{
+  "deviceID": 5,
+  "protocol": "coap",
+  "address": "coap://[2001:660:3207:4c0::2460]:5683/test/hello?len=80",
+  "factorImpact": 10
+},{
+  "deviceID": 6,
+  "protocol": "coap",
+  "address": "coap://[2001:660:3207:4c0::3560]:5683/sensors/light",
+  "factorImpact": 10
+},{
+  "deviceID": 7,
+  "protocol": "coap",
+  "address": "coap://[2001:660:3207:4c0::2453]:5683/sensors/pressure",
+  "factorImpact": 10
+},{
+  "deviceID": 8,
+  "protocol": "coap",
+  "address": "coap://[2001:660:3207:4c0::2760]:5683/sensors/gyros",
+  "factorImpact": 10
+},{
+  "deviceID": 9,
+  "protocol": "coap",
+  "address": "coap://[2001:660:3207:4c0::2061]:5683/sensors/accel",
+  "factorImpact": 10
+}]

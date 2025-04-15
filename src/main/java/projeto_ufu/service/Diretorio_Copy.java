@@ -6,8 +6,6 @@ import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-//import ping.Fd_Disaster;
-import projeto_ufu.principal.CoAPController;
 
 public class Diretorio_Copy {
 
@@ -22,12 +20,12 @@ public class Diretorio_Copy {
     /*Variável para armazenar o caminho da pasta*/
     static String folder;
 
-    public static void leituraDiretorio(long getTimeEnvioMensagem) {
+    public static void leituraDiretorio(long getTimeEnvioMensagem,String baseDir) {
 
         if (Diretorio.e_Windows()) {
-            folder = CoAPController.path5;
+            folder = "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/";
         } else {
-            folder = CoAPController.path6;
+            folder = "~/.iot-lab";
         }
 
         /** Obter o diretório mais recente */
@@ -168,7 +166,7 @@ public class Diretorio_Copy {
 
                     double ultimoValor = quintaColuna.get(quintaColuna.size() - 1);
                     String arquivo_estatistica = "estatistica_consumo.txt";
-                    escreverEstatisticas(arquivo_estatistica, nome_arquivo, valor_minimo, valor_maximo, valor_medio, ultimoValor, getTimeEnvioMensagem);
+                    escreverEstatisticas(arquivo_estatistica, nome_arquivo, valor_minimo, valor_maximo, valor_medio, ultimoValor, getTimeEnvioMensagem,baseDir);
                }
               }
         } catch (Exception e) {
@@ -177,9 +175,9 @@ public class Diretorio_Copy {
     }
 
     private static void escreverEstatisticas(String arquivo_estatistica, String nome_arquivo, double valor_minimo,
-    	    double valor_maximo, double valor_medio, double ultimoValor, long getTimeEnvioMensagem) {
+    	    double valor_maximo, double valor_medio, double ultimoValor, long getTimeEnvioMensagem, String baseDir) {
     	    	
-    	    	String caminho_SO = Diretorio.caminho_SO();
+    	    	String caminho_SO = Diretorio.caminho_SO(baseDir);
     	    	
     	      try (
     	                FileWriter writer = new FileWriter( caminho_SO + arquivo_estatistica, true)) {
@@ -211,9 +209,9 @@ public class Diretorio_Copy {
         String caminho_Log_Coap;
 
         if (Diretorio.e_Windows()) {
-            caminho_Log_Coap = CoAPController.path5;
+            caminho_Log_Coap = "C:/Users/Abadio/Corrigido_COAP/disasterFd/src/";
         } else {
-            caminho_Log_Coap = CoAPController.path7;
+            caminho_Log_Coap = "/senslab/users/asilva/testes/";
         }
 
         return caminho_Log_Coap;

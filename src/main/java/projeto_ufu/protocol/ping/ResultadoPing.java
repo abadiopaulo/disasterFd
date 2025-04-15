@@ -1,5 +1,6 @@
 package projeto_ufu.protocol.ping;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.concurrent.ConcurrentHashMap;
@@ -14,8 +15,20 @@ public class ResultadoPing {
 	
 	private static final ConcurrentHashMap<String, AtomicInteger> deviceMID = new ConcurrentHashMap<>();
 	private static final ConcurrentHashMap<String, Long> pingSendTime = new ConcurrentHashMap<>();
+	
+	// Diretório base para os arquivos desta instância (região)
+    private final String regionBaseDir;
 
-	public static PingResult ping(String ipv6Address, long timeoutMilli) {
+    // Construtor recebe o diretório base da região
+    public ResultadoPing(String regionBaseDir) {
+        // Garante que o diretório termine com separador
+        if (!regionBaseDir.endsWith(File.separator)) {
+            regionBaseDir += File.separator;
+        }
+        this.regionBaseDir = regionBaseDir;
+    }
+
+	public PingResult ping(String ipv6Address, long timeoutMilli) {
 		
 		int currentMID = deviceMID.computeIfAbsent(ipv6Address, k -> new AtomicInteger(0)).incrementAndGet();		
 		
@@ -60,17 +73,17 @@ public class ResultadoPing {
 		}
 	}
 	
-	public static void registerSendTime(String ipv6Address, int currentMID, long sendTime) {
+	public void registerSendTime(String ipv6Address, int currentMID, long sendTime) {
         pingSendTime.put(ipv6Address + "_" + currentMID, sendTime);
     }
 
-    public static Long getAndRemoveSendTime(String ipv6Address, int currentMID) {
+    public Long getAndRemoveSendTime(String ipv6Address, int currentMID) {
         return pingSendTime.remove(ipv6Address + "_" + currentMID);
     }
 
-	private static void criarArquivo(String ipv6Address, boolean success) {
+	private void criarArquivo(String ipv6Address, boolean success) {
 	
-		String nomeArquivo = Diretorio.caminho_SO() + ipv6Address + ".txt";
+		String nomeArquivo = regionBaseDir + ipv6Address + ".txt";
 
 		try (FileWriter fileWriter = new FileWriter(nomeArquivo)) {
 			fileWriter.write(success ? "1" : "0");

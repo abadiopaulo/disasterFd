@@ -1,17 +1,18 @@
 package projeto_ufu.metricas;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
+import projeto_ufu.json.dominio.Url;
 import projeto_ufu.principal.CoAPController;
-import projeto_ufu.service.Diretorio;
-
 
 public class Metricas {
 	
@@ -20,12 +21,24 @@ public class Metricas {
 	private Map<Integer, Boolean> dispositivoFuncionando = new HashMap<>();
     private Map<Integer, Integer> contadorFalhas = new HashMap<>(); 
     
-    public  static Map<Integer, Integer> errosDispositivo = new HashMap<>();
-    public  static Map<Integer, Integer> acertosDispositivo = new HashMap<>();
-    private static  Map<Integer, Integer> ultimoErroRegistrado = new HashMap<>();
+    public  Map<Integer, Integer> errosDispositivo = new HashMap<>();
+    public  Map<Integer, Integer> acertosDispositivo = new HashMap<>();
+    private Map<Integer, Integer> ultimoErroRegistrado = new HashMap<>();
         
-    public Metricas() {}
-
+    private List<Url> listaTopicos;
+    
+    /* Diretório base para salvar os arquivos de log para essa região.
+    Você pode também passar os caminhos completos de cada arquivo, se preferir. */
+    private String basePath;
+    
+    public Metricas(String basePath, List<Url> listaTopicos) {
+        this.basePath = basePath;
+        this.listaTopicos = listaTopicos;
+        File dir = new File(basePath);
+        if (!dir.exists()) {
+            dir.mkdirs();
+        }
+    }
         
     /* Método calcular TD - Tempo de Detecção 
      * verifica se um dispositivo estava funcionando anteriormente e, se sim, calcula o Tempo de Detecção (TD) de falha,
@@ -66,7 +79,8 @@ public class Metricas {
   
    private void registrarTD(int dispositivoId, long tFalha, long tUltimoHeartbeat_Trusted ,long td) throws IOException {
        
-    	String nomeArquivo = Diretorio.caminho_SO() + "TD.csv";
+	    String nomeArquivo = basePath + File.separator + "TD.csv";
+        garantirDiretorio(nomeArquivo);
         
     	try (BufferedWriter writer = new BufferedWriter(new FileWriter(nomeArquivo, true))){
         
@@ -89,7 +103,8 @@ public class Metricas {
     
    public void registrarTMR(int dispositivoId,  long tempoAtual, long tempoAnterior, long tmr) throws IOException {
     	
-    	String nomeArquivo = Diretorio.caminho_SO() + "TMR.csv";
+	    String nomeArquivo = basePath + File.separator + "TMR.csv";
+	    garantirDiretorio(nomeArquivo);
     	
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(nomeArquivo, true))) {
             writer.write(dispositivoId + ";" + millissegundosData(tempoAtual) + ";" + millissegundosData(tempoAnterior) + ";" + tmr + "\n");
@@ -118,7 +133,8 @@ public class Metricas {
    
    public void registrarTM(int dispositivoId,  long tFalha, long tUltimoHeartbeat_Trusted, long tm) throws IOException {
    	
-   	String nomeArquivo = Diretorio.caminho_SO() + "TM.csv";
+	   String nomeArquivo = basePath + File.separator + "TM.csv";
+	   garantirDiretorio(nomeArquivo);
    	
        try (BufferedWriter writer = new BufferedWriter(new FileWriter(nomeArquivo, true))) {
            writer.write(dispositivoId + ";" + millissegundosData(tUltimoHeartbeat_Trusted) + ";" + millissegundosData(tFalha) + ";" + tm + "\n");
@@ -137,16 +153,15 @@ public class Metricas {
    
    public double calcularMediaErros(int dispositivoId) {    
 	   
-	   int idMensagemInt = CoAPController.lista_topicos.get(dispositivoId).getIdMensagem();
-
-
-       return (double) errosDispositivo.get(dispositivoId) / idMensagemInt;
+	  int idMensagemInt = listaTopicos.get(dispositivoId).getIdMensagem();
+      return (double) errosDispositivo.get(dispositivoId) / idMensagemInt;
    }
    
     
    public void historicoDispositivo(int dispositivoId, long dataRegistro, int quantidade, String tipoRegistro) throws IOException {
 	    
-	    String nomeArquivo = Diretorio.caminho_SO() + tipoRegistro + ".txt";
+	   String nomeArquivo = basePath + File.separator + tipoRegistro + ".txt";
+	   garantirDiretorio(nomeArquivo);
 	        
 	    try (BufferedWriter writer = new BufferedWriter(new FileWriter(nomeArquivo, true))) {
 	        writer.write(dispositivoId + ";" + dataRegistro + ";" + quantidade + "\n");
@@ -178,6 +193,15 @@ public class Metricas {
 	             }
 	    }
    }*/
+   
+   // Método para garantir que o diretório do arquivo existe
+   private void garantirDiretorio(String filePath) {
+       File file = new File(filePath);
+       File dir = file.getParentFile();
+       if (dir != null && !dir.exists()) {
+           dir.mkdirs();
+       }
+   }
    
    private static String millissegundosData(long lCDateTime) {
 

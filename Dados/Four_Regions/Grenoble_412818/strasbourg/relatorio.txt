@@ -1,0 +1,637 @@
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              false                                   20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           false                                   20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              false                                   20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          false                                   60                                 
+
+*********** false = 0 *********** Relatório Gerado em : 04/03/2025 02:12:28.276 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 02:42:28.275 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 03:12:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 03:42:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 04:12:28.275 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 04:42:28.275 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 05:12:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 05:42:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           false                                   20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 100 *********** Relatório Gerado em : 04/03/2025 06:12:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 06:42:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              false                                   20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              false                                   20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 80 *********** Relatório Gerado em : 04/03/2025 07:12:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 07:42:28.273 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 08:12:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              false                                   20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 100 *********** Relatório Gerado em : 04/03/2025 08:42:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 09:12:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 09:42:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 10:12:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 10:42:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 11:12:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           false                                   20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 100 *********** Relatório Gerado em : 04/03/2025 11:42:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 12:12:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 12:42:28.273 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 13:12:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              false                                   20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 100 *********** Relatório Gerado em : 04/03/2025 13:42:28.276 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 14:12:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 14:42:28.280 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 15:12:28.279 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 15:42:28.274 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 16:12:28.274 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 16:42:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 17:12:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 17:42:28.278 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 18:12:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 18:42:28.275 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 19:12:28.276 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 19:42:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 20:12:28.275 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 20:42:28.276 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 21:12:28.273 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 21:42:28.273 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 22:12:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 22:42:28.275 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 23:12:28.271 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 04/03/2025 23:42:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 05/03/2025 00:12:28.273 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 05/03/2025 00:42:28.274 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 05/03/2025 01:12:28.272 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 05/03/2025 01:42:28.274 *********** FIM DO RELATÓRIO ************** 
+
+Relatorio Dispositivos
+
+ID                                    URL                                   NÓ RESPONDEU                          Fator de Impacto                      
+0              coap://[2a07:2e40:fffe:e1::9588]:5683/sensors/light              true                                    20                                 
+
+1              coap://[2a07:2e40:fffe:e1::8984]:5683/sensors/pressure           true                                    20                                 
+
+2              coap://[2a07:2e40:fffe:e1::a385]:5683/sensors/gyros              true                                    20                                 
+
+3              2a07:2e40:fffe:e1::a484                                          true                                    60                                 
+
+*********** true = 120 *********** Relatório Gerado em : 05/03/2025 02:12:28.271 *********** FIM DO RELATÓRIO ************** 
+

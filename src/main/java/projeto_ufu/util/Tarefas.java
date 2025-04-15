@@ -4,19 +4,28 @@ import java.io.IOException;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
+
 import projeto_ufu.fd.DisasterFd;
-import projeto_ufu.metricas.Metricas;
-import projeto_ufu.principal.CoAPController;
+import projeto_ufu.json.dominio.Conf;
 import projeto_ufu.service.Diretorio;
 
 public class Tarefas {
 
-    private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(3);
+	private static final Logger logger = LoggerUtil.getLogger(Tarefas.class);
+	
+	private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(2);
     
     private final DisasterFd disasterFd;
+    
+    private final String regionBaseDir;
+    
+    private final Conf conf; 
                 
-    public Tarefas(DisasterFd disasterFd) {
-        this.disasterFd = disasterFd;        
+    public Tarefas(DisasterFd disasterFd, Conf conf, String regionBaseDir) {
+        this.disasterFd = disasterFd;  
+        this.conf = conf;
+        this.regionBaseDir = regionBaseDir;
     }
 
     public void iniciarTarefas() {
@@ -30,12 +39,16 @@ public class Tarefas {
     	scheduler.scheduleAtFixedRate(() -> {
             try {
                 
-                Diretorio.leituraDiretorio(CoAPController.conf.getTime_envio_mensagem());
+            	   // Executa a leitura do diretório apenas se a região for local (alfa == true)
+                   if (conf.getAlfa()) {                	   
+                     logger.info("Executando leitura do diretório para a região LOCAL: " + conf.getRegionName());  
+                     Diretorio.leituraDiretorio(conf.getTime_envio_mensagem(), regionBaseDir);
+                   }                
             } 
             catch (Exception e) {
                 e.printStackTrace();
             }
-        }, 0, CoAPController.conf.getTime_consumo_energia(), TimeUnit.MINUTES);
+        }, 0, conf.getTime_consumo_energia(), TimeUnit.MINUTES);
     }
 
     private void agendarEstatisticas() {
@@ -46,7 +59,7 @@ public class Tarefas {
             catch (IOException e) {
                 e.printStackTrace();
             }
-        }, 0, CoAPController.conf.getTime_analiseRede(), TimeUnit.MINUTES);
+        }, 0, conf.getTime_analiseRede(), TimeUnit.MINUTES);
     }
     
    /* private void registrarMetricas() {

@@ -4,9 +4,7 @@ import java.io.*;
 import java.net.*;
 import java.util.concurrent.*;
 
-//import ping.Fd_Disaster;
 import projeto_ufu.json.dominio.Conf;
-import projeto_ufu.principal.CoAPController;
 
 /*
  * A classe Client é responsável por implementar a lógica do cliente em um sistema de monitoramento. 
@@ -27,10 +25,19 @@ public class Client {
   * por monitorar os servidores. 
   * 
   * */   
- public void clientMonitor(int cliente) {
-        ExecutorService executorService = Executors.newFixedThreadPool(CoAPController.conf.outros_monitores.length);
+ 
+ // Agora o Client tem um campo de instância para a configuração
+ private Conf conf;
 
-        for (Conf.HostMonitor hostMonitor : CoAPController.conf.outros_monitores) {
+ // Construtor recebe a instância de Conf para a região específica
+ public Client(Conf conf) {
+     this.conf = conf;
+ }
+ 
+ public void clientMonitor(int cliente) {
+        ExecutorService executorService = Executors.newFixedThreadPool(conf.outros_monitores.length);
+
+        for (Conf.HostMonitor hostMonitor : conf.outros_monitores) {
             executorService.execute(() -> {
 
             	boolean connected = false;

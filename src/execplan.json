@@ -1,5 +1,5 @@
 { 
-  "server":"172.22.1.3",
+  "server":"172.22.8.199",
   "windows_size":"100",
   "margin":"150000000", 
   "threshold":"40",

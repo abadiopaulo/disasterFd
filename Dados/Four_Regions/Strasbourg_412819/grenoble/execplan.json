@@ -1,0 +1,19 @@
+{ 
+  "server":"2001:660:5307:3110::b179",
+  "windows_size":"100",
+  "margin":"1500000000", 
+  "threshold":"60",
+  "alfa":false,
+  "trace": "",
+  "timeout_dispositivo":"5200000000", 
+  "time_analiseRede":"30",
+  "time_consumo_energia":"5",
+  "time_envio_mensagem": "5000000000",
+  "outros_monitores": [    
+   {
+      "ip": "2001:660:5307:3110::b179",
+      "hostname": "grenoble"
+    }
+  ]  
+ }
+
